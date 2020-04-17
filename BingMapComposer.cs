@@ -19,8 +19,8 @@ namespace com.businesscentral
             message.AppendLine("    <meta name=\"viewport\" content=\"initial-scale=1.0\">");
             message.AppendLine("    <meta charset=\"utf-8\">");
             message.AppendLine("    <script type='text/javascript' src='" + url + "' async defer></script>");
-            message.AppendLine("    <script src=\"bingmap.js\" ></script>");
-            //message.AppendLine(ComposeJavaScript());
+            //message.AppendLine("    <script src=\"bingmap.js\" ></script>");
+            message.AppendLine(ComposeJavaScript());
             message.AppendLine("    <style>");
             message.AppendLine("      #map {");
             message.AppendLine("        height: 100%;");
