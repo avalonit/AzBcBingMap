@@ -62,7 +62,7 @@ namespace com.businesscentral
             message.AppendLine("    var position = new Microsoft.Maps.Location(lat, lng)");
             message.AppendLine("    //Create custom Pushpin");
             message.AppendLine("    var pin = new Microsoft.Maps.Pushpin(position, {");
-            message.AppendLine("      icon: 'images/poi_custom.png',");
+            message.AppendLine("      icon: 'https://www.bingmapsportal.com/Content/images/poi_custom.png',");
             message.AppendLine("      anchor: new Microsoft.Maps.Point(12, 39)");
             message.AppendLine("    });");
 
