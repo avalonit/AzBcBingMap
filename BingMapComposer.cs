@@ -8,9 +8,9 @@ namespace com.businesscentral
     {
         public string Compose(ConnectorConfig config)
         {
-            StringBuilder message = new StringBuilder();
+            var message = new StringBuilder();
 
-            string url = config.bing_url + config.bing_key;
+            var url = config.bing_url + config.bing_key;
 
             message.AppendLine("<!DOCTYPE html>");
             message.AppendLine("<html>");
@@ -43,7 +43,7 @@ namespace com.businesscentral
 
         public string ComposeJavaScript()
         {
-            StringBuilder message = new StringBuilder();
+            var message = new StringBuilder();
 
             message.AppendLine("<script type='text/javascript'>");
             message.AppendLine("var map;");

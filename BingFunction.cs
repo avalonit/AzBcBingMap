@@ -30,8 +30,8 @@ namespace com.businesscentral
             var bcConfig = new ConnectorConfig(config);
 
             // Outcoming whatsapp message is composed
-            BingMapComposer composer = new BingMapComposer();
-            string replyText = composer.Compose(bcConfig);
+            var composer = new BingMapComposer();
+            var replyText = composer.Compose(bcConfig);
 
             var response = new HttpResponseMessage(HttpStatusCode.OK);
             response.Content = new StringContent(replyText);
