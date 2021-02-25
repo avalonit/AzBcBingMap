@@ -3,7 +3,6 @@ using Microsoft.Extensions.Configuration;
 
 namespace com.businesscentral
 {
-
     public partial class ConnectorConfig
     {
         public ConnectorConfig(IConfigurationRoot config)

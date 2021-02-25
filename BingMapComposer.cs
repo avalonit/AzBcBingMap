@@ -3,7 +3,6 @@ using System.Text;
 
 namespace com.businesscentral
 {
-
     public partial class BingMapComposer
     {
         public string Compose(ConnectorConfig config)
